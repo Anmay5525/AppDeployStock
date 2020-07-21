@@ -12,6 +12,10 @@ app.listen( process.env.PORT || 3000, () => {
     console.log("App now running ....");
 });
 
+app.get("/", (req, res) => {
+    res.json({"sdasd":"asdsf"});
+})
+
 // National Stock Exchange (NSE) APIS
 
 // Get the stock market status (open/closed) - JSON
