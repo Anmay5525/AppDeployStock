@@ -1,0 +1,21 @@
+{
+  "name": "stock_deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
+  },
+  "author": "An",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "express": "^4.17.1",
+    "indian-stock-exchange": "^1.3.33",
+    "loadash": "^1.0.0"
+  },
+  "engines": {
+    "node": "10.15.3"
+  }
+}
