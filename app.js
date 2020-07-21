@@ -13,7 +13,7 @@ app.listen( process.env.PORT || 3000, () => {
 });
 
 app.get("/", (req, res) => {
-    res.json({"sdasd":"asdsf"});
+    res.json({"Base":"endpoint"});
 })
 
 // National Stock Exchange (NSE) APIS
