@@ -13,7 +13,12 @@ app.listen( process.env.PORT || 3000, () => {
 });
 
 app.get("/", (req, res) => {
-    res.json({"Base":"endpoint"});
+
+    fetch("https://jsonplaceholder.typicode.com/users")
+    .then(response => res.json(response.data))
+    // .then(json => console.log(json))
+
+    // res.json({"Base":"endpoint"});
 })
 
 // National Stock Exchange (NSE) APIS
